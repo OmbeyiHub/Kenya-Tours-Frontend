@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import './Auth.css';
+//import './Auth.css';
 import './login.css'; // Import the CSS file
 
 const Login = () => {

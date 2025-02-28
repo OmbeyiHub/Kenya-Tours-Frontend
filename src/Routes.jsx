@@ -3,6 +3,8 @@ import Hotels from "./pages/Hotels";
 import Parks from "./pages/parks";
 import Beaches from "./pages/Beaches";
 import AddServicePage from "./pages/AddServicePage";
+import Login from "./components/login";
+import Signup from "./components/signup";
 
 const routes = [
   {
@@ -24,6 +26,14 @@ const routes = [
       {
         path: "/add-service",
         element: <AddServicePage />,
+      },
+      {
+        path: "/login",
+        element: <Login/>,
+      },
+      {
+        path: "/signup",
+        element: <Signup />,
       }
     
 ]

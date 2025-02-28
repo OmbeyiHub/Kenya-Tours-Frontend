@@ -6,7 +6,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <nav className="nav-bar">
-      <NavLink to="/" exact>
+      <NavLink to="/">
         <IoHome size={24} />
         <span>Home</span>
       </NavLink>
@@ -14,6 +14,8 @@ const Navbar = () => {
       <NavLink to="/hotels">Hotels</NavLink>
       <NavLink to="/beaches">Beaches</NavLink>
       <NavLink to="/add-service">Add Service</NavLink> {/* New link */}
+      <NavLink to="/login">Login</NavLink>
+      
     </nav>
   );
 };
