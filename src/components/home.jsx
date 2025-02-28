@@ -1,5 +1,6 @@
 import NavBar from "./NavBar"
 import { Outlet } from "react-router-dom"
+import "./home.css"
 
 
 function Home() {
